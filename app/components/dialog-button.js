@@ -1,0 +1,1 @@
+export { default } from 'ember-native-dialog/components/dialog-button';

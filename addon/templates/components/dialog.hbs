@@ -1,0 +1,8 @@
+<div>
+  {{yield
+    (hash
+      button=(component "dialog-button" showModal=this.showModal)
+      modal=(component "dialog-modal" open=this.open)
+    )
+  }}
+</div>
